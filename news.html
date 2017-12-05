@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="SABCstyles.css">
+  <link rel="icon" type="image/jpg" href="Images/SABC.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:500|Playfair+Display" rel="stylesheet">
+
+  <style>
+
+
+ img {
+      float: left;
+    }
+
+section.top {
+			height:49%;
+			width:100%;
+			margin-bottom:2%;
+			contain: content;
+			}
+
+section.bottom {
+			height:49%;
+			width:100%;
+			margin-bottom:0px;
+			contain: content;
+
+}
+
+/*<-- Start of extra news editing, content positioning, colour, background colour, layout, height, width-->*/
+#other{
+  max-width: 50%;
+  max-height:420px;
+  contain:Content;
+  text-align: center;
+  clear: both;
+  margin-left: 2%;
+}
+
+#TopLeft{
+  float: left;
+  margin: 0.5%;
+  width: 24%;
+  background:#325ba7;
+  padding-top:3px;
+  contain:content;
+  height:481px;
+}
+
+#TopRight{
+  float: left;
+  margin: 0.5%;
+  width: 24%;
+  background:#C00;
+  padding-top:3px;
+  contain:content;
+  height:420px;
+}
+
+#BottomLeft{
+  float: left;
+  margin: 0.5%;
+  width: 24%;
+  background:#3C3;
+  padding-top:3px;
+  contain:content;
+}
+
+#BottomRight{
+  float: left;
+  margin: 0.5%;
+  width: 24%;
+  background:#cba01b;
+  padding-top:3px;
+  contain:content;
+}
+
+#TopLeftContent{
+  background:#36C;
+  text-align:left;
+  font-size:14px;
+  border-top:#325ba7 solid 1px;
+  }
+
+#TopRightContent{
+  background:#C30;
+  text-align:left;
+  font-size:14px;
+  border-top:#C00 solid 1px;
+
+  }
+
+#BottomLeftContent{
+  background:#393;
+  text-align:left;
+  font-size:14px;
+  border-top:#3C3 solid 1px;
+}
+
+#BottomRightContent{
+  background:#a79226;
+  text-align:left;
+  font-size:14px;
+  border-top:#cba01b solid 1px;
+}
+h4 {
+  min-height: 40px;
+  max-width: 100%;
+  }
+
+#Para {
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+}
+/*<-- End of extra content editing-->*/
+
+/*<-- Start of font styling, height, padding, size, colour-->*/
+h4 {
+	min-height: 40px;
+	max-width: 100%;
+	}
+
+#small {
+		margin-top: 2%;
+		padding-bottom: 1%;;
+		padding-left:3%;
+}
+
+h6 {
+	min-height: 40px;
+	max-width: 100%;
+	color: #036;
+	text-shadow: 0.5px 0.5px lightgrey;
+	padding-left: 5%;
+	margin-left:32%;
+	margin-top:0px;
+	margin-bottom:0px;
+
+}
+
+p {
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:10%;
+	padding-bottom:40%;
+	margin-bottom:0px;
+	height:100%
+	}
+/*<-- end of font styling-->*/
+/*<-- Start of aside styling form, Side Social link bar and extra news article-->*/
+aside {
+		float:right;
+		width: 35%;
+		border: 0px;
+		margin-right:20px;
+		}
+
+
+div.SideSocial {
+				margin-top: 90%;
+				border: #CCC solid 2px 2px;
+				background-color:#39C;
+				padding-top: 3px;
+				color:white;
+				}
+
+div.follow {
+		padding-top:10px;
+		contain: content;
+		border-top:solid #CCC 1px 1px;
+}
+
+table {
+		width: 100%;
+		border-top:#CCC solid 1px;
+		border-bottom: #CCC dashed 1px;
+		border-left: #CCC solid 1px;
+		border-right: #CCC solid 1px;
+		background:#FFF;
+}
+
+td img{
+	float:none;
+	padding-left: 22px;
+}
+
+#message {
+			background:#FFF;
+			margin-bottom:0px;
+			color: Black;
+}
+
+form {
+	 padding-left:10px;
+	 padding-top:10px;
+	 border-bottom:#CCC solid 1px;
+	 border-left:#CCC solid 1px;
+	 border-right:#CCC solid 1px;
+	 padding-bottom:6px;
+}
+/*<-- End of aside styling-->*/
+
+/*<-- Start of extra news Content styling positioning, colour, background, border, text shadow -->*/
+#Extra {
+	padding: 1%;
+	border: 0px;
+	color: #FFF;
+	text-shadow: 1.2px 1.2px #333;
+	letter-spacing: 1.8px;
+	text-align:left;
+	margin-left:2%;
+	max-width:50%;
+}
+
+#headline img {
+			float:left;
+			min-height:60px;
+}
+
+#CatagoryLeft{
+			color:#F00;
+			text-shadow:rgb(102,102,102) 1px 1px;
+			font-size:18px;
+			letter-spacing:1px;
+			font-weight:bold;
+      float: left;
+			border:#CCC solid 1px;
+			width:48%;
+			contain: content;
+			max-height: 60%;
+      margin-left:0px;
+      margin-bottom: 10px;
+}
+
+#CatagoryRight{
+			color:#F00;
+			text-shadow:rgb(102,102,102) 1px 1px;
+			font-size:18px;
+			letter-spacing:1px;
+      float: left;
+			font-weight:bold;
+			border:#CCC solid 1px;
+			width:48%;
+			contain: content;
+			max-height: 60%;
+      margin-left: 10px;
+      margin-bottom: 10px;
+}
+
+
+#headline {
+			max-width:100%;
+			float:inherit;
+			contain:content;
+}
+/*<-- End of extra news Content -->*/
+
+/*<-- Start of Copywrite styling position-->*/
+#Copywrite {
+  padding-top: 0px;
+  padding-bottom: 0%;
+}
+/*<-- End styling of Copywrite -->*/
+
+#Sp {
+  padding-top: 0;
+  padding-bottom: 1%;
+}
+
+  </style>
+
+  <title>News</title>
+
+</head>
+
+<body>
+
+  <!-- Start of navbar with jumplinks to linked pages within the site -->
+<div class="navbar">
+    <nav>
+    <img class="NavLogoTop" src="Images\SABC Logo.png" alt="SABC Logo Black writing" height="40px" width="102" style="padding-bottom:20px; margin-top:0px;">
+      <ul class="navlist">
+        <li class="navli"><a href="index.html" title="Home" target="_self" style="color:white">Home</a></li>
+        <li class="navli"><a href="about.html" title="About" target="_self" style="color:white">About</a></li>
+        <li class="navli"><a class="active" href="news.html" title="News" target="_self" style="color:white">News</a></li>
+        <li class="navli"><a href="contact.html" title="Contact" target="_self" style="color:white">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- End of navbar-->
+
+  <!-- aside content with message form -->
+  <aside>
+    <img src="Images/Grace.jpg" alt="Grace" height="50%" width="70%">
+    <div class="SideSocial">
+      <p id="Sp"style="margin-left:5px"> Follow Us On:</p>
+      <div class="Follow">
+        <table>
+          <tr>
+            <td><a href="http://twitter.com/SABCNewsOnline" title="twitter" target="_blank"><img src="Images/TRound.png" height="32px" width="32px"></a></td>
+            <td><a href="http://www.facebook.com/pages/SABC-News-Online/122121361542" title="Facebook" target="_blank"><img src="Images/FRound.png" height="32px" width="32px"></a></td>
+            <td><a href="http://www.youtube.com/sabcnews" title="YouTube" target="_blank"><img src="Images/YRound.png" height="32px" width="32px"></a></td>
+            <td><a href="http://www.sabc.co.za/news/feeds" title="RSS" target="_blank"><img src="Images/RRound.png" height="32px" width="32px"></a></td>
+            <td><a href="http://www.sabc.co.za/mobile" title="Telephone" target="_blank"><img src="Images/PRound.png" height="32px" width="32px"></a></td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="message">
+        <form>
+          We value your opinion, send us your thoughts
+          <textarea name="message" cols="40" rows="10">
+          </textarea>
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </aside>
+
+
+<!-- Start More news content -->
+  <section id="Extra">
+
+    <div id="CatagoryLeft">
+      <div style="text-align:left; border-bottom:#CCC solid 1px;">
+        <h4 id="small" style="margin-bottom: 0px"><a href="http://www.sabc.co.za/news/south_africa" title="South_Africa" target="_blank" style="color:inherit;pading-left:5%;">South Africa</a></h4>
+      </div>
+
+      <div id="headline">
+        <a href="http://www.sabc.co.za/news/a/b906f080427690a58b299f1f32f383bb/Price-fixing-hampers-development:-Cyril-20170209Price-fixing-hampers-development:-Cyril-20170209" title="Deputy President Cyril Ramaphosa" target="_blank"><img src="Images/cyril.jpg" alt="SABC Logo Black writing" height="100%" width="35%" style="margin:0px;"></a>
+        <a href="http://www.sabc.co.za/news/a/b906f080427690a58b299f1f32f383bb/Price-fixing-hampers-development:-Cyril-20170209Price-fixing-hampers-development:-Cyril-20170209" title="Deputy President Cyril Ramaphosa" target="_blank"><h6>Deputy President Cyril Ramaphosa</h6></a>
+      </div>
+    </div>
+
+    <div id="CatagoryRight">
+
+      <div style="text-align:left; border-bottom:#CCC solid 1px;">
+        <h4 id="small" style="margin-bottom: 0px"><a href="http://www.sabc.co.za/news/africa" title="Africa" target="_blank" style="color:inherit;pading-left:5%;">Africa</a></h4>
+      </div>
+
+      <div id="headline">
+        <a href="http://www.sabc.co.za/news/a/bf23e7004279b26998249c1f32f383bb/Nullified-election-results-a-win-for-Kenyans:-Analyst-20170309" title="Africa" target="_blank"><img src="Images/Africa.jpg" alt="Nullified election results a win for Kenyans: Analyst" height="inherit" width="35%" style="margin:0px;"></a>
+        <a href="http://www.sabc.co.za/news/a/bf23e7004279b26998249c1f32f383bb/Nullified-election-results-a-win-for-Kenyans:-Analyst-20170309" title="Africa" target="_blank"><h6>Nullified election results a win for Kenyans: Analyst</h6></a>
+      </div>
+    </div>
+
+    <div id="CatagoryLeft">
+
+      <div style="text-align:left; border-bottom:#CCC solid 1px;">
+        <h4 id="small" style="margin-bottom: 0px"><a href="http://www.sabc.co.za/news/world" title="World" target="_blank" style="color:inherit;pading-left:5%;">World</a></h4>
+      </div>
+
+      <div id="headline">
+        <a href="http://www.sabc.co.za/news/a/8142d6004279f321bc7fbc1f32f383bb/Chinese-Seismological-Center-Registers-6.3-magnitude-Earthquake-near-North-Korea-20170309" title="World" target="_blank"><img src="Images/World.jpg" alt="World" height="inherit%" width="35%" style="margin:0px;"></a>
+        <a href="http://www.sabc.co.za/news/a/8142d6004279f321bc7fbc1f32f383bb/Chinese-Seismological-Center-Registers-6.3-magnitude-Earthquake-near-North-Korea-20170309" title="World" target="_blank"><h6>Chinese Seismological Center Registers 6.3-magnitude Earthquake</h6></a>
+      </div>
+    </div>
+
+    <div id="CatagoryRight">
+      <div style="text-align:left; border-bottom:#CCC solid 1px;">
+        <h4 id="small" style="margin-bottom: 0px"><a href="http://www.sabc.co.za/news/politics" title="Politics" target="_blank" style="color:inherit;pading-left:5%;">Politics</a></h4>
+      </div>
+
+      <div id="headline">
+        <a href="http://www.sabc.co.za/news/a/daba5b804279cd07a81bbc1f32f383bb/Zuma-has-dictatorial-authority-over-the-ANC:-Mapaila-20170309" title="Politics" target="_blank"><img src="Images/Politics.jpg" alt="Politics" height="100%" width="35%" style="margin:0px;"></a>
+        <a href="http://www.sabc.co.za/news/a/daba5b804279cd07a81bbc1f32f383bb/Zuma-has-dictatorial-authority-over-the-ANC:-Mapaila-20170309" title="Deputy President Cyril Ramaphosa" target="_blank"><h6>Zuma has dictatorial authority over the ANC: Mapaila</h6></a>
+      </div>
+    </div>
+
+    <div id="CatagoryLeft">
+
+      <div style="text-align:left; border-bottom:#CCC solid 1px;">
+        <h4 id="small" style="margin-bottom: 0px"><a href="http://www.sabc.co.za/news/business" title="Business" target="_blank" style="color:inherit;pading-left:5%;">Business</a></h4>
+      </div>
+
+      <div id="headline">
+        <a href="http://www.sabc.co.za/news/a/a6051f004279fa80807d9c1f32f383bb/BRICS-summit-expected-to-oppose-trade-protectionism,-China-says-20170309" title="Business" target="_blank"><img src="Images/Business.jpg" alt="Business" height="100%" width="35%" style="margin:0px;"></a>
+        <a href="http://www.sabc.co.za/news/a/a6051f004279fa80807d9c1f32f383bb/BRICS-summit-expected-to-oppose-trade-protectionism,-China-says-20170309" title="Business" target="_blank"><h6>BRICS summit expected to oppose trade protectionism, China says</h6></a>
+      </div>
+    </div>
+
+    <div id="CatagoryRight">
+
+      <div style="text-align:left; border-bottom:#CCC solid 1px;">
+        <h4 id="small" style="margin-bottom: 0px"><a href="http://www.sabc.co.za/news/science" title="Science" target="_blank" style="color:inherit;pading-left:5%;">Science</a></h4>
+      </div>
+
+      <div id="headline">
+        <a href="http://www.sabc.co.za/news/a/7d0e1600427a164c8f7b9f1f32f383bb/Huawei-unveils-faster-phone-chip-it-says-can-beat-Apple,-Samsung-20170309" title="Science" target="_blank"><img src="Images/Science.jpg" alt="Science" height="100%" width="35%" style="margin:0px;"></a>
+        <a href="http://www.sabc.co.za/news/a/7d0e1600427a164c8f7b9f1f32f383bb/Huawei-unveils-faster-phone-chip-it-says-can-beat-Apple,-Samsung-20170309" title="Science" target="_blank"><h6>Huawei unveils faster phone chip it says can beat Apple, Samsung</h6></a>
+      </div>
+    </div>
+
+    <div id="CatagoryLeft">
+
+      <div style="text-align:left; border-bottom:#CCC solid 1px;">
+        <h4 id="small" style="margin-bottom: 0px"><a href="http://www.sabc.co.za/news/lifestyle" title="Lifestyle" target="_blank" style="color:inherit;pading-left:5%;">Lifestyle</a></h4>
+      </div>
+
+      <div id="headline">
+        <a href="http://www.sabc.co.za/news/a/fb316f00427a11ab8cb49c1f32f383bb/Songbird--Zamajobe-Sithole-back-with-her-latest-single-Sobabili-20170309" title="Lifestyle" target="_blank"><img src="Images/Lifestyle.jpg" alt="SABC Logo Black writing" height="100%" width="35%" style="margin:0px;"></a>
+        <a href="http://www.sabc.co.za/news/a/fb316f00427a11ab8cb49c1f32f383bb/Songbird--Zamajobe-Sithole-back-with-her-latest-single-Sobabili-20170309" title="Lifestyle" target="_blank"><h6>Songbird Zamajobe back with latest single</h6></a>
+      </div>
+    </div>
+
+    <div id="CatagoryRight">
+      <div style="text-align:left; border-bottom:#CCC solid 1px;">
+        <h4 id="small" style="margin-bottom: 0px"><a href="http://www.sabc.co.za/news/sport" title="Sport" target="_blank" style="color:inherit;pading-left:5%;">Sport</a></h4>
+      </div>
+
+      <div id="headline">
+        <a href="http://www.sabc.co.za/news/a/795826004279b24b98159c1f32f383bb/After-two-marathons-Federer-sprints-into-fourth-round-20170309" title="Sport" target="_blank"><img src="Images/Sport.jpg" alt="Sport" height="100%" width="35%" style="margin:0px;"></a>
+        <a href="http://www.sabc.co.za/news/a/795826004279b24b98159c1f32f383bb/After-two-marathons-Federer-sprints-into-fourth-round-20170309" title="Sport" target="_blank"><h6>After two marathons Federer sprints into fourth round</h6></a>
+      </div>
+    </div>
+
+    <div id="CatagoryLeft">
+      <div style="text-align:left; border-bottom:#CCC solid 1px;pading-left:5%">
+        <h4 id="small" style="margin-bottom: 0px"><a href="http://www.sabc.co.za/news/opinion" title="Opinion" target="_blank" style="color:inherit;;">Opinion</a></h4>
+      </div>
+
+      <div id="headline">
+        <a href="http://www.sabc.co.za/news/a/7453710042770ef1be40be1f32f383bb/" title="Opinion" target="_blank"><img src="Images/Opinion.jpg" alt="SABC Logo Black writing" height="100%" width="35%" style="margin:0px;"></a>
+        <a href="http://www.sabc.co.za/news/a/7453710042770ef1be40be1f32f383bb/" title="Opinion" target="_blank"><h6>Shedding light on why mining firms in eastern Congo are under attack</h6></a>
+      </div>
+    </div>
+  </section>
+  <!-- End more news content -->
+
+  <!-- Extra news content, in divs within 1 section split into 4  -->
+  <section id="other">
+    <div id="TopLeft">
+      <h4><a href="http://www.sabc.co.za/news/f2/3e7fa58041d54da0b2bcf269a8d852ca/SABC-Editorial-Policy-20170711" title="SABC-Electorial" target="_blank" style="color:inherit">SABC Editorial Policy</a></h4>
+      <div id="TopLeftContent">
+        <p id="Para" style="padding-bottom:10%">The South African Broadcasting Corporation (SABC) is embarking on a review process of its 2004 Editorial Policies, which were developed through a consultation process with the public at large.</p>
+        <a href="http://www.sabc.co.za/news/f2/3e7fa58041d54da0b2bcf269a8d852ca/SABC-Editorial-Policy-20170711" title="SABC-Electorial" target="_blank"><img src="Images/TL.jpg" alt="SABC Logo Black writing" height="120px" width="100%" style="margin:0px;"></a>
+      </div>
+    </div>
+    <div id="TopRight">
+      <h4><a href="http://www.sabc.co.za/news/f2/5a56738041669aedba5bffbafe45a256/Albert-Luthuli-50-years-later-20170605" title="Albert" target="_blank" style="color:inherit">Albert Luthuli 50 years later</a></h4>
+      <div id="TopRightContent">
+        <p id="Para" style="padding-bottom:110%">50th death anniversary of Chief Albert Luthuli</p>
+        <a href="http://www.sabc.co.za/news/f2/3e7fa58041d54da0b2bcf269a8d852ca/SABC-Editorial-Policy-20170711" title="SABC-Electorial" target="_blank"><img src="Images/TR.jpg" alt="SABC Logo Black writing" height="122px" width="100%" style="margin:0px;"></a>
+      </div>
+    </div>
+    <div id="BottomLeft">
+      <h4>&nbsp;<a href="http://www.sabc.co.za/news/f2/2cf5f20040c355a29176f1d9ce9b621f/WEF-on-Africa-2017-20170413" title="SABC-Electorial" target="_blank" style="color:inherit">WEF on Africa 2017</a>&nbsp;</h4>
+      <div id="BottomLeftContent">
+        <p id="Para" style="padding-bottom:62%">The World Economic Forum (WEF) on Africa takes place in Durban, South Africa on 3 - 5 May 2017. Get the latest news about the event.</p>
+        <a href="http://www.sabc.co.za/news/f2/3e7fa58041d54da0b2bcf269a8d852ca/SABC-Editorial-Policy-20170711" title="SABC-Electorial" target="_blank"><img src="Images/WEF2AFRICA.jpg" alt="SABC Logo Black writing" height="122px" width="100%" style="margin:0px;"></a>
+      </div>
+    </div>
+    <div id="BottomRight">
+      <h4><a href="http://www.sabc.co.za/news/f2/c1c26380426886ccbaeafe55d25cc606/SABC-Board-interviews-20170828" title="SABC-Electorial" target="_blank" style="color:inherit">SABC Board interviews</a></h4>
+      <div id="BottomRightContent">
+        <p id="Para" style="padding-bottom:36%">Parliamentary interviews for candidates shortlisted to fill the 12 non-executive Board positions at the South African Broadcasting Corporation (SABC).</p>
+        <a href="http://www.sabc.co.za/news/f2/3e7fa58041d54da0b2bcf269a8d852ca/SABC-Editorial-Policy-20170711" title="SABC-Electorial" target="_blank"><img src="Images/SABC+board+interviews.jpg" alt="SABC Logo Black writing" height="120px" width="100%" style="margin:0px;"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Start of footer and social links and extra links  -->
+  <footer>
+    <div>
+      <img src="Images\SABC Logo.png" alt="SABC Logo Black writing" height="60px" width="120px";>
+    </div>
+
+    <div class="social">
+      <table class="footSocial">
+        <tr>
+          <td class="footSocial"><a href="http://twitter.com/SABCNewsOnline" title="twitter" target="_blank"><img src="Images/TRound.png" height="40px" width="40px"></a></td>
+          <td class="footSocial"><a href="http://www.facebook.com/pages/SABC-News-Online/122121361542" title="Facebook" target="_blank"><img src="Images/FRound.png" height="40px" width="40px"></a></td>
+          <td class="footSocial"><a href="http://www.youtube.com/sabcnews" title="YouTube" target="_blank"><img src="Images/YRound.png" height="40px" width="40px"></a></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="end">
+      <p id="Copywrite">Megan Meyer &copy; 2017</p>
+      <a href="http://www.iabsa.net/" title="IAB" target="_blank"><img src="Images/iab_logo_big.png" alt="IAB_Logo" height="60px" width="120px" style="float:right"></a>
+    </div>
+
+    <div class="Extra">
+      <table class="FootUl">
+        <tr>
+          <td class="FootUl" style="width:140px";><a href="about.html" title="About" target="_blank" style="color:black">About The SABC</a></td>
+          <td class="FootUl" style="width:110px";><a href="contact.html" title="Contact" target="_blank" style="color:black">Contact Us</a></td>
+          <td class="FootUl" style="width:120px";><a href="http://www.sabc.co.za/wps/portal/SABC/SABCBIZINFOTENDERS" title="Tenders" target="_blank" style="color:black">Tenders</a></td>
+          <td class="FootUl" style="width:86px"><a href="http://www.sabc.co.za/wps/portal/SABC/SABCCITINFOJOBS" title="Jobs" target="_blank" style="color:black">Jobs</a></td>
+        </tr>
+      </table>
+
+      <table class="FootUl">
+        <tr>
+          <td class="FootUl" style="width:140px";><a href="http://www.sabc.co.za/wps/portal/SABC/SABCBIZINFO" title="Advertise" target="_blank" style="color:black">Advertise</a></td>
+          <td class="FootUl" style="width:110px";><a href="http://www.sabc.co.za/wps/portal/SABC/disclaimer" title="disclaimer" target="_blank" style="color:black">Disclaimer</a></td>
+          <td class="FootUl" style="width:120px";><a href="http://www.sabc.co.za/wps/portal/SABC/SABCPRESSRELEASES" title="Press_Release" target="_blank" style="color:black">Press Release</a></td>
+          <td class="FootUl" style="width:86px"><a href="http://www.sabc.co.za/wps/portal/SABC/sitemap" title="Sitemap" target="_blank" style="color:black">Site Map</a></td>
+        </tr>
+      </table>
+    </div>
+
+  </footer>
+<!-- End of footer -->
+
+</body>
+
+</html>
