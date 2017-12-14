@@ -242,6 +242,8 @@ div.tags p {
             text-decoration: underline;
             margin-left: 0;
             margin-bottom: 0;
+            float: left;
+            width: 8%;
 }
 
 div.tags li {
