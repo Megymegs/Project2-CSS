@@ -18,7 +18,7 @@
         background-color: lightBlue;
       }
     }
-    
+
   @media only screen
     and (min-device-width: 768px)
     and (max-device-width: 1024px)
@@ -32,7 +32,8 @@
 /*Start of Stylesheet for overall look of page*/
 html {
       padding: 0px 40px;
-      max-width:1200px;
+      max-width:1000px;
+      margin-left: 10%;
       }
 
 /*<--Start of body styling, margin edit, width and border specifications -->*/
@@ -64,7 +65,7 @@ a {
 div.navbar {
             width: inherit;
             height: 80px;
-            background-image: linear-gradient(#6CF,white);
+            background-image: linear-gradient(#6CF,black);
             border-top: grey solid 2px;
             border-left: grey solid 2px;
             border-right: grey solid 2px;
@@ -75,28 +76,24 @@ div.navbar {
 ul.navlist {
             margin-top: 16px;
             padding-top: 14px;
+            width: 80%;
+            float: left;
             }
 
 img.NavLogoTop {
-                margin-left: 5px;
-                margin-top: 10px;
+                margin-left: 2%;
+                margin-top: 2%;
                 }
 
 li.navli {
           display: inline;
           width:inherit;
-          background-color: #73d3ff;
           color:#FFF;
-          margin-left:14px;
-          margin-right:14px;
-          font-size: 17px;
+          font-size: 24px;
+          margin: 0 1%;
           font-weight: bold;
-          font-stretch:wider;
           letter-spacing:1.5px;
-          padding:16px 7%;
-          border:#CCC solid 1px;
-          border-radius: 30%;
-          box-shadow:#666 2px 2px, #000 0px 0px 2px 2px inset, #90F 2px 2px 0px 0px inset;
+          padding:16px 5%;
         }
 
 li.navli a {
@@ -144,10 +141,165 @@ li.SocialMenu {
 }
 /*<--End of aside -->*/
 
+
+div.Headlines {
+              float:left;
+              padding-left:5px;
+              padding-right: 5px;
+              max-width: 58%;
+              height: inherit;
+              margin-top:0px;
+              }
+
+div.Content	{
+	        padding-top:0px;
+			}
+
+aside {
+		float:right;
+		width: 35%;
+		border: 0px;
+		margin-right:20px;
+		}
+
+
+#PhotoCap {
+  background-color:#39C;
+  margin-top: 0px;
+  padding-top: 18px;
+  padding-left: 4px;
+  float:left;
+  height:46px;
+  width: 99%;
+              }
+
+img {
+      float: left;
+    }
+
+section.main {
+          border:#CCC solid 1px;
+          width: 98%;
+          height: 252px;
+          margin-bottom: 15px;
+		  margin-left: 5px;
+          }
+
+div.Text {
+          width: 42%;
+          float: right;
+		  padding-right:10px;
+          }
+
+div.caption {
+            height: inherit;
+            width: 52%;
+            float: left;
+            contain: content;
+            }
+
+div.others {
+            contain: content;
+            padding-left: 5px;
+            padding-right: 5px;
+}
+
+div.others h3 {
+              padding-left: 32%;
+              margin-top: 0px;
+              border-top:  lightgrey ridge 16px;
+              padding-top:10px;
+}
+
+div.others p {
+              padding-left:0px;
+              margin-bottom: 0px;
+              text-indent: 32%;
+}
+
+#date {
+	  text-indent:0px;
+	  padding-left: 32%;
+	  font-size:13px;
+	  color:#666;
+		}
+
+div.tags {
+          float: left;
+          margin: 0px;
+          padding: 0px;
+          font-size: 13px;
+          contain: Content;
+          width:100%;
+}
+
+#tags {
+	  text-indent:0px;
+}
+
+div.tags p {
+            color: red;
+            text-decoration: underline;
+            margin-left: 0;
+            margin-bottom: 0;
+}
+
+div.tags li {
+            display: inline;
+            list-style-type: none;
+            margin: 5px;
+            text-decoration:underline;
+}
+
+div.tags li a:hover {
+                    background-color: transparent;
+                  }
+
+div.SideSocial {
+				background-color:#39C;
+				padding-top: 3px;
+				color:white;
+				}
+
+div.follow {
+		padding-top:10px;
+		contain: content;
+		border-top:solid #CCC 1px 1px;
+}
+
+table {
+		width: 100%;
+		border-top:#CCC solid 1px;
+		border-bottom: #CCC dashed 1px;
+		border-left: #CCC solid 1px;
+		border-right: #CCC solid 1px;
+		background:#FFF;
+}
+
+td img{
+	float:none;
+	padding-left: 22px;
+}
+
+#message {
+			background:#FFF;
+			margin-bottom:0px;
+			color: Black;
+}
+
+form {
+	 padding-left:10px;
+	 padding-top:10px;
+	 border-bottom:#CCC solid 1px;
+	 border-left:#CCC solid 1px;
+	 border-right:#CCC solid 1px;
+	 padding-bottom:6px;
+}
+
 /*<--Start of Footer, inline styling including padding, position and background colour -->*/
 footer {
         clear:both;
-        background-image: linear-gradient(white,#6CF);
+        background-image: linear-gradient(black,#6CF);
         height: 80px;
         padding-top: 30px;
         padding-left: 30px;
@@ -163,8 +315,8 @@ div.social {
             }
 
 div.Extra {
-          margin-left: 340px;
-          margin-right: 200px;
+          margin-left: 320px;
+          margin-right: 120px;
         }
 
 table.footSocial {

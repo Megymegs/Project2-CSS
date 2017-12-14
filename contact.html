@@ -19,7 +19,7 @@
 
 /*<--Start of styling for main content-->*/
 div.Holder {
-			width: 60%;
+			width: 56%;
 			border: lightgrey solid 1px;
 			padding: 0px;
 			margin-left:20px;
@@ -42,11 +42,6 @@ div.head {
 		border-bottom:#999 solid 1px;
 		background-color:#CCC;
 		}
-
-td img {
-    	margin-left:16%;
-    }
-
 
 td {
     	border:0px;
@@ -73,12 +68,10 @@ h4 {
 button {
   border:#999 solid 1px;
 	background-color:lightgrey;
-	float:none;
 	text-align:center;
 	clear:both;
 	margin-bottom:0px;
 	margin-top:0px;
-	margin-left:10%;
 	box-sizing:30%;
 	padding-bottom:10px;
 	padding-top:10px;
@@ -113,7 +106,8 @@ ol {
   margin-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  width: 89.5%;
+  width: 100%;
+  height: 100%;
   padding-top: 4%;
   padding-bottom: 4%;
   line-height: 26px;
@@ -125,7 +119,6 @@ ol {
 /*<--Start aside styling, border control, content control, background colour, position -->*/
 aside {
   border: 0px;
-  padding: 3%;
   contain: content;
 }
 
@@ -148,7 +141,8 @@ div.SABCYoutube {
 
 div.listextra {
   float: left;
-  width: 96%;
+  width: 100%;
+  height: 304px;
 }
 /*<--End aside -->*/
 
@@ -164,7 +158,7 @@ div.listextra {
 <!-- Start of navbar with jumplinks to linked pages within the site -->
   <div class="navbar">
     <nav>
-      <img class="NavLogoTop" src="Images/SABCLogo.png" alt="SABC Logo Black writing" height="40px" width="102" style="padding-bottom:20px; margin-top:0px" ;>
+      <img class="NavLogoTop" src="Images\SABC Logo.png" alt="SABC Logo Black writing" height="40px" width="102" style="padding-bottom:20px;">
       <ul class="navlist">
         <li class="navli"><a href="index.html" title="Home" target="_self" style="color:white">Home</a></li>
         <li class="navli"><a href="about.html" title="About" target="_self" style="color:white">About</a></li>
@@ -179,10 +173,10 @@ div.listextra {
   <div class="Holder">
     <table>
       <tr>
-        <td><img src="Images/emailUs_icon.png" alt="Email" height="50%" width="60%"><br><button style="padding-right: 24px; padding-left: 24px; margin-left: 24px;"><a href="http://www.sabc.co.za/wps/portal/SABC/SABCCONTACTUS#" title="Email" target="_blank" style="text-decoration:none">Email Us</button></a></td>
-        <td><img src="Images/physicalAd_icon.png" alt="Email" height="76%" width="60%"><br><button style="padding-left: 14px; padding-right: 14px; margin-left: 10px;"><a href="http://www.sabc.co.za/wps/portal/SABC/SABCCONTACTUS#" title="Address" target="_blank" style="text-decoration:none">Physical Address</button></a></td>
-        <td><img src="Images/postalAd_icon.png" alt="Email" height="78%" width="70%"><br><button style="padding-left: 20px; padding-right: 20px; margin-left: 20px;"><a href="http://www.sabc.co.za/wps/portal/SABC/SABCCONTACTUS#" title="Post" target="_blank" style="text-decoration:none">Postal Details</button></a></td>
-        <td><img src="Images/contactUs_icon.png" alt="Email" height="82%" width="70%"><br><button style="margin-left: 20px; padding-left: 20px; padding-right: 20px;"><a href="http://www.sabc.co.za/wps/portal/SABC/SABCCONTACTUS#" title="Contact" target="_blank" style="text-decoration:none">Contact details</button></a></td>
+        <td><img src="Images/emailUs_icon.png" alt="Email" height="50%" width="60%"><br><button style="padding-right: 24px; padding-left: 24px; margin-left:8%;"><a href="http://www.sabc.co.za/wps/portal/SABC/SABCCONTACTUS#" title="Email" target="_blank" style="text-decoration:none">Email Us</button></a></td>
+        <td><img src="Images/physicalAd_icon.png" alt="Email" height="76%" width="60%"><br><button style="padding: 10px 11px; margin-top:2px;"><a href="http://www.sabc.co.za/wps/portal/SABC/SABCCONTACTUS#" title="Address" target="_blank" style="text-decoration:none">Physical Address</button></a></td>
+        <td><img src="Images/postalAd_icon.png" alt="Email" height="78%" width="70%"><br><button style="padding: 10px; margin-top:2px; margin-left:8%;"><a href="http://www.sabc.co.za/wps/portal/SABC/SABCCONTACTUS#" title="Post" target="_blank" style="text-decoration:none">Postal Details</button></a></td>
+        <td><img src="Images/contactUs_icon.png" alt="Email" height="82%" width="70%"><br><button style="padding: 10px; margin-top:2px; margin-left:6px; margin-right:7%;"><a href="http://www.sabc.co.za/wps/portal/SABC/SABCCONTACTUS#" title="Contact" target="_blank" style="text-decoration:none">Contact details</button></a></td>
       </tr>
     </table>
 
@@ -193,8 +187,7 @@ div.listextra {
       <form>
         <p>Fill out the form to send your comments, queries and feedback to the SABC</p>
         <br>
-        <p>Please select a category for your request.
-          &nbsp &nbsp &nbsp
+        <p>Please select a category for your request. &nbsp; &nbsp; &nbsp;
         <select>
           <option value="">Select a category</option>
           <option >TV Licence enquiries </option>
@@ -213,7 +206,6 @@ div.listextra {
           <option>CSI proposals </option>
           <option>SABC Encore enquiries </option>
         </select></p>
-      </p>
       <br>
       <p>Name</p>
       <input name="Name" type="text" class="text1">
@@ -222,8 +214,9 @@ div.listextra {
       <p>Subject</p>
       <input name="Subject" type="text" class="text1">
       <p>Message</p>
-      <textarea name="message" rows="25%" cols="89.5%"></textarea>
-      <button style="margin-left: 410px; margin-right:0px;">Reset</button> <button style="float: right; margin-left: 20px; margin-right: 10px;">Send</button>
+      <textarea name="message" rows="19%" cols="69%"></textarea>
+
+      <button style="margin-left: 278px; margin-right:0px;">Reset</button> <button style="float: right; margin-left: 20px; margin-right: 10px;">Send</button>
       <br>
       <br>
       <br>
@@ -258,8 +251,8 @@ div.listextra {
       <h4>SABC ON YOUTUBE</h4>
     </div>
 
-    <div class="wide_wrap" style="height:250px; width:304px; overflow:hidden;">
-      <iframe width="304" height="258" src="http://www.youtube.com/embed/videoseries?list=PL09A9482D217EEDBD&amp;hl=en_GB" frameborder="0" allowfullscreen=""></iframe>
+    <div class="wide_wrap" style="height:250px; width:330px; overflow:hidden;">
+      <iframe width="329" height="258" src="http://www.youtube.com/embed/videoseries?list=PL09A9482D217EEDBD&amp;hl=en_GB" frameborder="0" allowfullscreen=""></iframe>
     </div>
   </div>
 </div>
@@ -270,7 +263,7 @@ div.listextra {
 <footer>
 
   <div>
-    <img src="Images/SABCLogo.png" alt="SABC Logo Black writing" height="60px" width="120px";>
+    <img src="Images\SABC Logo.png" alt="SABC Logo Black writing" height="60px" width="120px";>
   </div>
 
   <div class="social">
@@ -291,7 +284,7 @@ div.listextra {
   <div class="Extra">
     <table class="FootUl">
       <tr>
-        <td class="FootUl" style="width:140px";><a href="about.html" title="About" target="_blank" style="color:black">About The SABC</a></td>
+        <td class="FootUl" style="width:168px";><a href="about.html" title="About" target="_blank" style="color:black">About The SABC</a></td>
         <td class="FootUl" style="width:110px";><a href="contact.html" title="Contact" target="_blank" style="color:black">Contact Us</a></td>
         <td class="FootUl" style="width:120px";><a href="http://www.sabc.co.za/wps/portal/SABC/SABCBIZINFOTENDERS" title="Tenders" target="_blank" style="color:black">Tenders</a></td>
         <td class="FootUl" style="width:86px"><a href="http://www.sabc.co.za/wps/portal/SABC/SABCCITINFOJOBS" title="Jobs" target="_blank" style="color:black">Jobs</a></td>
@@ -300,10 +293,10 @@ div.listextra {
 
     <table class="FootUl">
       <tr>
-        <td class="FootUl" style="width:140px";><a href="http://www.sabc.co.za/wps/portal/SABC/SABCBIZINFO" title="Advertise" target="_blank" style="color:black">Advertise</a></td>
-        <td class="FootUl" style="width:110px";><a href="http://www.sabc.co.za/wps/portal/SABC/disclaimer" title="disclaimer" target="_blank" style="color:black">Disclaimer</a></td>
-        <td class="FootUl" style="width:120px";><a href="http://www.sabc.co.za/wps/portal/SABC/SABCPRESSRELEASES" title="Press_Release" target="_blank" style="color:black">Press Release</a></td>
-        <td class="FootUl" style="width:86px"><a href="http://www.sabc.co.za/wps/portal/SABC/sitemap" title="Sitemap" target="_blank" style="color:black">Site Map</a></td>
+        <td class="FootUl" style="width:120px";><a href="http://www.sabc.co.za/wps/portal/SABC/SABCBIZINFO" title="Advertise" target="_blank" style="color:black">Advertise</a></td>
+        <td class="FootUl" style="width:100px";><a href="http://www.sabc.co.za/wps/portal/SABC/disclaimer" title="disclaimer" target="_blank" style="color:black">Disclaimer</a></td>
+        <td class="FootUl" style="width:150px";><a href="http://www.sabc.co.za/wps/portal/SABC/SABCPRESSRELEASES" title="Press_Release" target="_blank" style="color:black">Press Release</a></td>
+        <td class="FootUl" style="width:120px"><a href="http://www.sabc.co.za/wps/portal/SABC/sitemap" title="Sitemap" target="_blank" style="color:black">Site Map</a></td>
       </tr>
     </table>
   </div>
